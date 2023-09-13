@@ -1,0 +1,139 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* nav-bar style */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  font-size: larger;
+  text-decoration: none;
+  color: rgb(251, 251, 253);
+  animation-name: link;
+}
+
+.nav-links li a:hover {
+  color: blue;
+  background-color: rgb(255, 255, 255);
+  font-size: x-large;
+  transition: 0.5;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  font-size: larger;
+}
+
+.search-bar input {
+  font-size: xx-large;
+  padding: 2vh;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.search-bar button {
+  padding: 20px 50px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+}
+
+/* navbar style finish */
+/* nav bar mediaquary */
+@media screen and (max-width: 768px) {}
+
+/* navigation heading  strat*/
+.nav-heading {
+
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  overflow-x: auto;
+  width: 100%;
+  text-align: center;
+  font-size: larger;
+}
+
+.nav-heading a {zzz
+  text-decoration: none;
+}
+
+.nav-heading h2 {
+  color: black;
+  font-size: medium;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-heading::-webkit-scrollbar {
+  width: 0px;
+}
+
+.nav-heading img {
+  height: 50px;
+  width: 50px;
+  filter: drop-shadow(5px 5px 10px black);
+}
+
+.nav-heading img:hover {
+  transform: scale(2);
+  transition: 0.5s;
+}
+
+.nav-heading .mobiles-continer,
+.fashion-container,
+.electronics-container,
+.home-furnitue,
+.appilances,
+.travel,
+.toys {}
+
+/* auto slide image */
+.auto-slide {
+  width: 80%;
+  padding: 50px;
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+
+}
+
+.slide-container {
+  border: 5px solid black;
+  width: 100%;
+}
+
+.auto-slide::-webkit-scrollbar {
+  width: 0px;
+}
+
+.auto-slide img {
+  border: 2px solid pink;
+}
+
+
+/* best of electronicss div  */
